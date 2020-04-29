@@ -1,0 +1,46 @@
+{
+  "name": "lumos-drivers",
+  "version": "0.0.0",
+  "repository": "git@github.com:rajzik/lumos-drivers.git",
+  "author": "Jan Šilhan <silhanu@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@rajzik/config-babel": "^1.10.5",
+    "@rajzik/config-eslint": "^2.3.15",
+    "@rajzik/config-jest": "^1.9.13",
+    "@rajzik/config-prettier": "^1.6.15",
+    "@rajzik/config-typescript": "^1.6.3",
+    "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
+    "@rajzik/lumos": "^2.2.18",
+    "husky": "^4.2.5"
+  },
+  "lumos": {
+    "drivers": [
+      "babel",
+      "eslint",
+      "jest",
+      "prettier",
+      "typescript"
+    ],
+    "settings": {
+      "library": true,
+      "next": true
+    }
+  },
+  "scripts": {
+    "prepare": "lumos create-config --silent",
+    "build": "lumos babel --workspaces=* && lumos babel --esm --workspaces=*",
+    "lint": "lumos eslint",
+    "posttest": "yarn run lint",
+    "jest": "cross-env NODE_ENV=test TZ=UTC lumos jest",
+    "jest:coverage": "yarn run jest -- --coverage",
+    "testCi": "yarn run jest:coverage",
+    "test": "yarn run jest",
+    "prettier": "lumos prettier",
+    "type": "lumos typescript --build --reference-workspaces",
+    "prebuild": "yarn run type",
+    "pretest": "yarn run type"
+  }
+}
