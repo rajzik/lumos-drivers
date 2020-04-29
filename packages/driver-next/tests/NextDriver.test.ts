@@ -64,12 +64,12 @@ describe('NextDriver', () => {
             env: {
               node: true,
             },
-            rules: {
+            amp: {
               foo: 'error',
             },
           },
           {
-            rules: {
+            amp: {
               foo: ['error', 'always'],
             },
           },
@@ -78,7 +78,7 @@ describe('NextDriver', () => {
         env: {
           node: true,
         },
-        rules: {
+        amp: {
           foo: ['error', 'always'],
         },
       });
@@ -88,14 +88,14 @@ describe('NextDriver', () => {
       expect(
         driver.mergeConfig(
           {
-            ignore: ['foo', 'bar'],
+            pageExtensions: ['foo', 'bar'],
           },
           {
-            ignore: ['baz', 'foo'],
+            pageExtensions: ['baz', 'foo'],
           },
         ),
       ).toEqual({
-        ignore: ['foo', 'bar', 'baz'],
+        pageExtensions: ['foo', 'bar', 'baz'],
       });
     });
   });
