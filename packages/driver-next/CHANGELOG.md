@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.0.2 - 2020-04-29
+
+#### ⚙️ Types
+
+- Add next config types. ([12f9014](https://github.com/rajzik/lumos-drivers/commit/12f9014))
+- Add next driver types. ([50f6783](https://github.com/rajzik/lumos-drivers/commit/50f6783))
+
+**Note:** Version bump only for package beemo-driver-next
+
+
+
+
+
 ### 0.0.1 - 2020-04-29
 
 #### 🐞 Fixes
