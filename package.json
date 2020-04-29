@@ -35,7 +35,7 @@
   ],
   "scripts": {
     "prepare": "lumos create-config --silent",
-    "build": "lumos babel --workspaces=* && lumos babel --esm --workspaces=*",
+    "build": "lumos babel --workspaces=*",
     "lint": "lumos eslint",
     "posttest": "yarn run lint",
     "jest": "cross-env NODE_ENV=test TZ=UTC lumos jest",
