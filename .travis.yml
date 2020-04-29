@@ -22,15 +22,15 @@ jobs:
     - name: Test @ 13
       script: yarn test
       node_js: '13'
+
     - stage: Release
       name: NPM
       if: branch = master
       node_js: '13'
-
       before_deploy:
         - git config --global user.name ${GITHUB_USER}
         - git config --global user.email ${GITHUB_EMAIL}
-        - git remote set-url origin "https://${GITHUB_TOKEN}@github.com/rajzik/lumos-drivers.git" >
+        - git remote set-url origin "https://${GITHUB_TOKEN}@github.com/rajzik/lumos.git" >
           /dev/null 2>&1
         - git checkout master
         - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
@@ -40,18 +40,6 @@ jobs:
         skip_cleanup: true
         on:
           branch: master
-
-    - stage: build
-      name: NPM
-      if: type = pull_request
-      node_js: '13'
-      before_build:
-        - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
-
-      build:
-        provider: script
-        script: yarn run release-alpha --dist-tag ${TRAVIS_BRANCH}
-        skip_cleanup: true
 
 notifications:
   email: false
