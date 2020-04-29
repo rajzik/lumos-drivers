@@ -1,0 +1,35 @@
+{
+  "name": "beemo-driver-next",
+  "version": "0.0.0",
+  "description": "Next js driver for beemo",
+  "keywords": [
+    "beemo",
+    "beemo-driver",
+    "driver",
+    "next-js",
+    "next",
+    "react",
+    "ssr"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "repository": "https://github.com/rajzik/lumos-drivers/tree/master/packages/driver-next",
+  "author": "Jan Silhan",
+  "license": "MIT",
+  "devDependencies": {
+    "@beemo/core": "^1.0.0",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "@beemo/core": "^1.0.0",
+    "next": "^9.3.6"
+  }
+}
