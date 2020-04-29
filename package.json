@@ -13,7 +13,7 @@
     "@rajzik/config-prettier": "^1.6.15",
     "@rajzik/config-typescript": "^1.6.3",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
-    "@rajzik/lumos": "^2.2.18",
+    "@rajzik/lumos": "^2.3.0",
     "husky": "^4.2.5",
     "lerna": "^3.20.2"
   },
