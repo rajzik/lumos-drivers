@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.1.2 - 2020-04-30
+
+#### 🐞 Fixes
+
+- Update readme. ([ef94908](https://github.com/rajzik/lumos-drivers/commit/ef94908))
+
+#### 📋 Misc
+
+- Refactor types. ([3156f3c](https://github.com/rajzik/lumos-drivers/commit/3156f3c))
+
+**Note:** Version bump only for package beemo-driver-next
+
+
+
+
+
 ### 0.1.1 - 2020-04-30
 
 #### 🐞 Fixes
