@@ -115,20 +115,22 @@ describe('NextDriver', () => {
         pageExtensions: ['foo', 'bar', 'baz'],
       });
     });
-    it('merges function and object correctly changed order', () => {
+
+    it('merges function and object correctly override setting', () => {
       expect(
         ((driver.mergeConfig(
           {
             pageExtensions: ['baz', 'foo'],
           },
-          (phase, options) => {
+          (phase, { defaultConfig }) => {
             return {
+              ...defaultConfig,
               pageExtensions: ['foo', 'bar'],
             };
           },
         ) as unknown) as Function)('test', {}),
       ).toEqual({
-        pageExtensions: ['baz', 'foo', 'bar'],
+        pageExtensions: ['foo', 'bar'],
       });
     });
   });
