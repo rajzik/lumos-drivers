@@ -9,7 +9,7 @@
     "@commitlint/cli": "^8.3.5",
     "@rajzik/config-babel": "^1.11.0",
     "@rajzik/config-eslint": "^2.4.0",
-    "@rajzik/config-jest": "^1.10.0",
+    "@rajzik/config-jest": "^1.10.1",
     "@rajzik/config-prettier": "^1.6.16",
     "@rajzik/config-typescript": "^1.7.0",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
