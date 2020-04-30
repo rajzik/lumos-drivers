@@ -7,13 +7,13 @@
   "private": true,
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
-    "@rajzik/config-babel": "^1.11.0",
-    "@rajzik/config-eslint": "^2.4.0",
-    "@rajzik/config-jest": "^1.10.0",
-    "@rajzik/config-prettier": "^1.6.16",
+    "@rajzik/config-babel": "^1.11.1",
+    "@rajzik/config-eslint": "^2.4.1",
+    "@rajzik/config-jest": "^1.10.1",
+    "@rajzik/config-prettier": "^1.6.17",
     "@rajzik/config-typescript": "^1.7.0",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
-    "@rajzik/lumos": "^2.3.0",
+    "@rajzik/lumos": "^3.0.0",
     "husky": "^4.2.5",
     "lerna": "^3.20.2"
   },
@@ -27,7 +27,7 @@
     ],
     "settings": {
       "library": true,
-      "next": true
+      "emptyBabelConfig": true
     }
   },
   "workspaces": [
