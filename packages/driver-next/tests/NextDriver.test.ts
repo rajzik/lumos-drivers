@@ -102,7 +102,7 @@ describe('NextDriver', () => {
     it('merges function and object correctly', () => {
       expect(
         ((driver.mergeConfig(
-          (phase, options) => {
+          () => {
             return {
               pageExtensions: ['foo', 'bar'],
             };
@@ -122,7 +122,7 @@ describe('NextDriver', () => {
           {
             pageExtensions: ['baz', 'foo'],
           },
-          (phase, { defaultConfig }) => {
+          (_phase, { defaultConfig }) => {
             return {
               ...defaultConfig,
               pageExtensions: ['foo', 'bar'],
