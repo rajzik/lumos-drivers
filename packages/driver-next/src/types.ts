@@ -16,10 +16,10 @@ export interface NextConfigObject {
   env?: {
     [key: string]: string | number | boolean;
   };
-  webpack?: Nullable<
-    (config: webpack.Configuration, options: WebpackOptions) => webpack.Configuration
-  >;
-  webpackDevMiddleware?: Nullable<(config: webpack.Configuration) => webpack.Configuration>;
+  webpack?:
+    | null
+    | ((config: webpack.Configuration, options: WebpackOptions) => webpack.Configuration);
+  webpackDevMiddleware?: null | ((config: webpack.Configuration) => webpack.Configuration);
   distDir?: string;
   assetPrefix?: string;
   configOrigin?: string;
@@ -85,7 +85,7 @@ export interface WebpackOptions {
 export interface PathMapOptions {
   dev: boolean;
   dir: string;
-  outDir: Nullable<string>;
+  outDir: string | null;
   distDir: string;
   buildId: string;
 }
