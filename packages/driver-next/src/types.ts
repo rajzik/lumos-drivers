@@ -101,6 +101,6 @@ export interface NextDefaultConfig {
   defaultConfig: NextConfigObject;
 }
 
-export type NextDriverConfig =
+export type NextConfig =
   | NextConfigObject
   | ((phase: NextPhases, defaultConfig: NextDefaultConfig) => NextConfigObject);
