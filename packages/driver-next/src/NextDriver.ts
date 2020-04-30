@@ -27,7 +27,10 @@ export default class NextDriver extends Driver<NextConfig> {
       }
 
       if (typeof next === 'function') {
-        newConfig = next(phase, { defaultConfig: newConfig });
+        newConfig = super.mergeConfig(
+          newConfig,
+          next(phase, { defaultConfig: newConfig }),
+        ) as NextConfigObject;
       } else {
         newConfig = super.mergeConfig(newConfig, next) as NextConfigObject;
       }

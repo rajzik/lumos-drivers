@@ -130,7 +130,7 @@ describe('NextDriver', () => {
           },
         ) as unknown) as Function)('test', {}),
       ).toEqual({
-        pageExtensions: ['foo', 'bar'],
+        pageExtensions: ['baz', 'foo', 'bar'],
       });
     });
   });
