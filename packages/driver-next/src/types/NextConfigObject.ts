@@ -1,16 +1,7 @@
-import {
-  PHASE_DEVELOPMENT_SERVER,
-  PHASE_EXPORT,
-  PHASE_PRODUCTION_BUILD,
-  PHASE_PRODUCTION_SERVER,
-} from 'next/constants';
 import webpack from 'webpack';
-
-export type NextPhases =
-  | typeof PHASE_DEVELOPMENT_SERVER
-  | typeof PHASE_EXPORT
-  | typeof PHASE_PRODUCTION_BUILD
-  | typeof PHASE_PRODUCTION_SERVER;
+import { PathMap } from './PathMap';
+import { PathMapOptions } from './PathMapOptions';
+import { WebpackOptions } from './WebpackOptions';
 
 export interface NextConfigObject {
   env?: {
@@ -38,7 +29,10 @@ export interface NextConfigObject {
     maxInactiveAge?: number;
     pagesBufferLength?: number;
   };
-  amp?: { canonicalBase?: string; [key: string]: unknown };
+  amp?: {
+    canonicalBase?: string;
+    [key: string]: unknown;
+  };
   exportTrailingSlash?: boolean;
   experimental?: {
     cpus?: number;
@@ -60,7 +54,9 @@ export interface NextConfigObject {
     pageEnv?: boolean;
     measureFid?: boolean;
   };
-  future?: { excludeDefaultMomentLocales?: boolean };
+  future?: {
+    excludeDefaultMomentLocales?: boolean;
+  };
   serverRuntimeConfig?: {
     [key: string]: unknown;
   };
@@ -73,34 +69,3 @@ export interface NextConfigObject {
   };
   exportPathMap?(defaultPathMap: PathMap, options: PathMapOptions): Promise<PathMap>;
 }
-
-export interface WebpackOptions {
-  buildId: string;
-  dev: boolean;
-  isServer: boolean;
-  defaultLoaders: webpack.Loader[];
-  webpack: unknown;
-}
-
-export interface PathMapOptions {
-  dev: boolean;
-  dir: string;
-  outDir: string | null;
-  distDir: string;
-  buildId: string;
-}
-
-export interface PathMap {
-  page: string;
-  query: {
-    [key: string]: unknown;
-  };
-}
-
-export interface NextDefaultConfig {
-  defaultConfig: NextConfigObject;
-}
-
-export type NextConfig =
-  | NextConfigObject
-  | ((phase: NextPhases, defaultConfig: NextDefaultConfig) => NextConfigObject);
