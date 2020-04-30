@@ -27,7 +27,7 @@ export interface NextConfigObject {
   generateBuildId?(): Promise<string>;
   generateEtags?: boolean;
   pageExtensions?: string[];
-  target?: 'server' | 'serverless';
+  target?: 'server' | 'serverless' | 'experimental-serverless-trace';
   poweredByHeader?: boolean;
   compress?: boolean;
   devIndicators?: {
@@ -51,7 +51,7 @@ export interface NextConfigObject {
     plugins?: boolean;
     profiling?: boolean;
     sprFlushToDisk?: boolean;
-    reactMode?: string;
+    reactMode?: 'legacy' | 'blocking' | 'concurrent';
     workerThreads?: boolean;
     basePath?: string;
     sassOptions?: {
