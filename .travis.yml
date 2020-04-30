@@ -18,6 +18,9 @@ jobs:
     - name: Test @ 12
       script: yarn test
       node_js: "12"
+    - name: Test @ 10
+      script: yarn test
+      node_js: "10"
     - name: Test @ 13
       script: yarn test
       node_js: "13"
@@ -25,7 +28,7 @@ jobs:
     - stage: Release
       name: NPM
       if: branch = master
-      node_js: "13"
+      node_js: "10"
       before_deploy:
         - git config --global user.name ${GITHUB_USER}
         - git config --global user.email ${GITHUB_EMAIL}
