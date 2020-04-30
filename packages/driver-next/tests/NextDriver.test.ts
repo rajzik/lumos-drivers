@@ -98,6 +98,41 @@ describe('NextDriver', () => {
         pageExtensions: ['foo', 'bar', 'baz'],
       });
     });
+
+    it('merges function and object correctly', () => {
+      expect(
+        ((driver.mergeConfig(
+          (phase, options) => {
+            return {
+              pageExtensions: ['foo', 'bar'],
+            };
+          },
+          {
+            pageExtensions: ['baz', 'foo'],
+          },
+        ) as unknown) as Function)('test', {}),
+      ).toEqual({
+        pageExtensions: ['foo', 'bar', 'baz'],
+      });
+    });
+
+    it('merges function and object correctly override setting', () => {
+      expect(
+        ((driver.mergeConfig(
+          {
+            pageExtensions: ['baz', 'foo'],
+          },
+          (phase, { defaultConfig }) => {
+            return {
+              ...defaultConfig,
+              pageExtensions: ['foo', 'bar'],
+            };
+          },
+        ) as unknown) as Function)('test', {}),
+      ).toEqual({
+        pageExtensions: ['baz', 'foo', 'bar'],
+      });
+    });
   });
 
   describe('processFailure()', () => {

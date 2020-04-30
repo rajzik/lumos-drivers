@@ -1,7 +1,7 @@
 import { Driver, STRATEGY_REFERENCE } from '@beemo/core';
-import { NextDriverConfig } from './types';
+import { NextConfig, NextConfigObject, NextDefaultConfig, NextPhases } from './types';
 
-export default class NextDriver extends Driver<NextDriverConfig> {
+export default class NextDriver extends Driver<NextConfig> {
   bootstrap() {
     this.setMetadata({
       bin: 'next',
@@ -10,5 +10,32 @@ export default class NextDriver extends Driver<NextDriverConfig> {
       description: this.tool.msg('app:nextDescription'),
       title: 'Next.js',
     });
+  }
+
+  mergeConfig(prev: NextConfig, next: NextConfig): NextConfig {
+    if (typeof prev !== 'function' && typeof next !== 'function') {
+      return super.mergeConfig(prev, next);
+    }
+
+    return (phase: NextPhases, options: NextDefaultConfig) => {
+      const { defaultConfig } = options;
+      let newConfig: NextConfigObject;
+      if (typeof prev === 'function') {
+        newConfig = prev(phase, options);
+      } else {
+        newConfig = super.mergeConfig(defaultConfig, prev) as NextConfigObject;
+      }
+
+      if (typeof next === 'function') {
+        newConfig = super.mergeConfig(
+          newConfig,
+          next(phase, { defaultConfig: newConfig }),
+        ) as NextConfigObject;
+      } else {
+        newConfig = super.mergeConfig(newConfig, next) as NextConfigObject;
+      }
+
+      return newConfig!;
+    };
   }
 }
