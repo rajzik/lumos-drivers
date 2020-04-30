@@ -12,5 +12,3 @@ npm install --save beemmo-driver-next next react react-dom
 ```
 
 ## Documentation
-
-_TBD_
