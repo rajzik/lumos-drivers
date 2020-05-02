@@ -2765,10 +2765,10 @@
     "@rajzik/lumos-common" "^2.0.0"
     prettier "^2.0.5"
 
-"@rajzik/config-typescript@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-1.7.0.tgz#00c362fb1714e2ceb87cbb9e85d54febf4163100"
-  integrity sha512-N5k3AcqWs2yhzrgeV06jdpSToWJQro/Z3tlAy9YOJ3HSFu/ukyxhA/a6J6eDZAx/g3k7/MX5/rxj9xuLx0Hq/g==
+"@rajzik/config-typescript@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-1.7.2.tgz#423061bff8a0fff85b34757ec6d02c63f8b3512f"
+  integrity sha512-THCdIAGf+TVnN5U22KoL79hxvLlQnLFvWRspDFnJzGXXoWzONAT5EMJc7mbeYjoRNmrWFWQ16HMR+M67P64fhw==
   dependencies:
     "@beemo/core" "^1.1.7"
     "@beemo/driver-typescript" "^1.3.3"
