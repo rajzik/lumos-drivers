@@ -2659,10 +2659,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^1.11.1":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.1.tgz#a102abbf98dc4d521de17898a689f2c1a8fffbff"
-  integrity sha512-RWCcpsXKOBhwG2QTobysixDSjkyKTmKu0aSA1DZK6qr0fKKXxOtUd1fkCch6DZBA5ifDQp5lCCSVgyO4PN4H7A==
+"@rajzik/config-babel@^1.11.7":
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.7.tgz#4efbf9549b7fa431c4336b02c63d7c923f452ed6"
+  integrity sha512-UYJKMUgXR3CH+InND+4TMCHhOCynbUx+A5XoEKbyWJpU9BFUQKcb6OePeALbLiKFDkJAX8d6FqXDfG5lVtJHuA==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.6"
@@ -2676,7 +2676,7 @@
     "@babel/preset-typescript" "^7.9.0"
     "@beemo/core" "^1.1.7"
     "@beemo/driver-babel" "^1.2.4"
-    "@rajzik/lumos-common" "^2.0.0"
+    "@rajzik/lumos-common" "^2.0.5"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-dev "^2.0.1"
