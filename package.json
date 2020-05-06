@@ -10,7 +10,7 @@
     "@rajzik/config-babel": "^1.11.7",
     "@rajzik/config-eslint": "^2.4.7",
     "@rajzik/config-jest": "^1.10.9",
-    "@rajzik/config-prettier": "^1.6.22",
+    "@rajzik/config-prettier": "^1.6.23",
     "@rajzik/config-typescript": "^1.7.4",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
     "@rajzik/lumos": "^3.0.13",
