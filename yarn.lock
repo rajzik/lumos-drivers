@@ -2716,16 +2716,16 @@
     eslint-plugin-testing-library "^3.1.1"
     eslint-plugin-unicorn "^19.0.1"
 
-"@rajzik/config-jest@^1.10.10":
-  version "1.10.10"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.10.tgz#9a71a7f4c8b2eb9b0920f8802553540fcac2be35"
-  integrity sha512-9AysS6SvMTB1uwGw7Ov1qUfeitSxKD0sATMGrfBWOTb4dAyGAciB3QDtVc0bF6xbmAdTMOKBknGttFD0IMTt/w==
+"@rajzik/config-jest@^1.10.11":
+  version "1.10.11"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.11.tgz#85af968ff97d6c642f4358b4debb0f5bb9716664"
+  integrity sha512-Qnf1vM/kiE4CPhUEqW7BimS5wqSRF/eKGYVzjmeiBA/N8R9i1WmMVYKaNmmtwSd+9BBWo6xRS14ID94SOtmdrw==
   dependencies:
     "@babel/core" "^7.9.0"
     "@beemo/core" "^1.1.7"
     "@beemo/driver-babel" "^1.2.4"
     "@beemo/driver-jest" "^1.2.2"
-    "@rajzik/lumos-common" "^2.0.6"
+    "@rajzik/lumos-common" "^2.0.7"
     "@types/jest" "^25.2.1"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
@@ -2762,7 +2762,7 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.1.tgz#0ace1c7d0377df0ebd150a99ae71418e25bdde66"
   integrity sha512-IMsLXO7VcTSdJM8rGT41HubNsoiO4iE7ZtzyJ0ezSqGSkkz94uhztNnYHiJFzeAJ8MCMOyDAHZiEHBiM68aY6w==
 
-"@rajzik/lumos-common@^2.0.6", "@rajzik/lumos-common@^2.0.7":
+"@rajzik/lumos-common@^2.0.7":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.7.tgz#3e070928fe51d0ffc1a3c47225397f722f5dd587"
   integrity sha512-BaID2Ax0vTmmunYQ8Rny8tD0nOXeUeoljeGypMuXmix9q+2YHkKcVpZwbw8Wa4qbYqQplNoDIaMXoImdHLivxQ==
@@ -6071,21 +6071,6 @@ execa@^3.2.0, execa@^3.4.0:
     strip-final-newline "^2.0.0"
 
 execa@^4.0.0, execa@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.1.tgz#988488781f1f0238cd156f7aaede11c3e853b4c1"
-  integrity sha512-SCjM/zlBdOK8Q5TIjOn6iEHZaPHFsMoTxXQ2nvUvtPnuohz3H2dIozSg+etNR98dGoYUp2ENSKLL/XaMmbxVgw==
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
-
-execa@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.1.tgz#988488781f1f0238cd156f7aaede11c3e853b4c1"
   integrity sha512-SCjM/zlBdOK8Q5TIjOn6iEHZaPHFsMoTxXQ2nvUvtPnuohz3H2dIozSg+etNR98dGoYUp2ENSKLL/XaMmbxVgw==
