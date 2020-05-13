@@ -15,7 +15,7 @@
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
     "@rajzik/lumos": "^3.0.18",
     "husky": "^4.2.5",
-    "lerna": "^3.20.2"
+    "lerna": "^3.21.0"
   },
   "lumos": {
     "drivers": [
