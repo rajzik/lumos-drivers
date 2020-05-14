@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.1.5 - 2020-05-14
+
+#### 🛠 Internals
+
+- bump @types/webpack from 4.41.12 to 4.41.13 ([621d9f5](https://github.com/rajzik/lumos-drivers/commit/621d9f5))
+
+**Note:** Version bump only for package beemo-driver-next
+
+
+
+
+
 ### 0.1.4 - 2020-05-12
 
 #### 🛠 Internals
