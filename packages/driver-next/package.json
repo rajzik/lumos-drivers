@@ -23,14 +23,14 @@
   "author": "Jan Silhan",
   "license": "MIT",
   "devDependencies": {
-    "@beemo/core": "^1.0.0",
+    "@beemo/core": "^1.1.8",
     "@types/webpack": "^4.41.13",
     "next": "^9.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "peerDependencies": {
-    "@beemo/core": "^1.0.0",
+    "@beemo/core": "^1.1.8",
     "next": "^9.4.1",
     "webpack": "^4.43.0"
   }
