@@ -2601,31 +2601,31 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.1.tgz#0ace1c7d0377df0ebd150a99ae71418e25bdde66"
   integrity sha512-IMsLXO7VcTSdJM8rGT41HubNsoiO4iE7ZtzyJ0ezSqGSkkz94uhztNnYHiJFzeAJ8MCMOyDAHZiEHBiM68aY6w==
 
-"@rajzik/lumos-common@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.7.tgz#3e070928fe51d0ffc1a3c47225397f722f5dd587"
-  integrity sha512-BaID2Ax0vTmmunYQ8Rny8tD0nOXeUeoljeGypMuXmix9q+2YHkKcVpZwbw8Wa4qbYqQplNoDIaMXoImdHLivxQ==
+"@rajzik/lumos-common@^2.0.7", "@rajzik/lumos-common@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.8.tgz#90fcfd60814db036898300e4fe29369782e00fa2"
+  integrity sha512-yDFFp0aVzd/gI0TG9jT8t3axv4O5qyN0K0lWBEOXFyoiIH4jC+glWxsjoOqvgOtTBQz8vdXH6cS+xVvMZeppDw==
   dependencies:
     "@beemo/core" "^1.1.7"
     "@boost/common" "^1.8.5"
-    execa "^4.0.1"
+    execa "^4.0.2"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^3.0.33":
-  version "3.0.33"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.33.tgz#f3ba240a25254dd54d2a8f3160caf918725e93d5"
-  integrity sha512-ITN5E7Bb7+c0+njR93uGb/I8QszwFtfPUP7rOyuq5VsH7tU10aKt5EEojqwuDlXW6Q1T6iU5re2RIHdabwZEFg==
+"@rajzik/lumos@^3.0.35":
+  version "3.0.35"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.35.tgz#cf18fd09dd16d00d76fdf6835e7cfc66a9ea6b34"
+  integrity sha512-EAevFIyVeEforUwgdXWEC48l4vWEo7nmxA7/dDraDVsToXdHW3pToy4r1hxeROhtMT+QKw4mKmve+W4gpL96yQ==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.7"
     "@rajzik/conventional-changelog-beemo" "^2.0.2"
-    "@rajzik/lumos-common" "^2.0.7"
+    "@rajzik/lumos-common" "^2.0.8"
     chalk "^4.0.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
     edit-json-file "^1.4.0"
     enquirer "^2.3.5"
-    execa "^4.0.1"
+    execa "^4.0.2"
 
 "@sinonjs/commons@^1.7.0":
   version "1.7.1"
@@ -5962,10 +5962,10 @@ execa@^3.2.0, execa@^3.4.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^4.0.0, execa@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.1.tgz#988488781f1f0238cd156f7aaede11c3e853b4c1"
-  integrity sha512-SCjM/zlBdOK8Q5TIjOn6iEHZaPHFsMoTxXQ2nvUvtPnuohz3H2dIozSg+etNR98dGoYUp2ENSKLL/XaMmbxVgw==
+execa@^4.0.0, execa@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.2.tgz#ad87fb7b2d9d564f70d2b62d511bee41d5cbb240"
+  integrity sha512-QI2zLa6CjGWdiQsmSkZoGtDx2N+cQIGb3yNolGTdjSQzydzLgYYf8LRuagp7S7fPimjcrzUDSUFd/MgzELMi4Q==
   dependencies:
     cross-spawn "^7.0.0"
     get-stream "^5.0.0"
