@@ -2506,10 +2506,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^1.11.9":
-  version "1.11.9"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.9.tgz#68ecd4affefcdf1269a2f1daa3ac5235fc7a4f56"
-  integrity sha512-fVaEQaYUt16RoKcRAtw2KJeXJhk70/H2pYZdwEJ36N1/eyu2B+PeU6PQw1VxpENPzwLTcSN74Tb2UqRpyoMHJw==
+"@rajzik/config-babel@^1.11.10":
+  version "1.11.10"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.10.tgz#ded08c91ff23ff9dc81765a1b891dbdb25e3f68f"
+  integrity sha512-mMxng81cWMykHQCBvD5MRPSgtLRhAR+FMqa97gBM9PjY8+2syH8LLgJ4KeochKw4dPDwezDPL4xP+hsWdgEfqA==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.6"
@@ -2523,7 +2523,7 @@
     "@babel/preset-typescript" "^7.9.0"
     "@beemo/core" "^1.1.7"
     "@beemo/driver-babel" "^1.2.4"
-    "@rajzik/lumos-common" "^2.0.7"
+    "@rajzik/lumos-common" "^2.0.8"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-dev "^2.0.1"
@@ -5963,6 +5963,21 @@ execa@^3.2.0, execa@^3.4.0:
     strip-final-newline "^2.0.0"
 
 execa@^4.0.0, execa@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.2.tgz#ad87fb7b2d9d564f70d2b62d511bee41d5cbb240"
+  integrity sha512-QI2zLa6CjGWdiQsmSkZoGtDx2N+cQIGb3yNolGTdjSQzydzLgYYf8LRuagp7S7fPimjcrzUDSUFd/MgzELMi4Q==
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
+execa@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.2.tgz#ad87fb7b2d9d564f70d2b62d511bee41d5cbb240"
   integrity sha512-QI2zLa6CjGWdiQsmSkZoGtDx2N+cQIGb3yNolGTdjSQzydzLgYYf8LRuagp7S7fPimjcrzUDSUFd/MgzELMi4Q==
