@@ -1111,7 +1111,7 @@
   resolved "https://registry.yarnpkg.com/@beemo/dependency-graph/-/dependency-graph-1.1.1.tgz#66de1321e16723744d25976c00c9c488796307e2"
   integrity sha512-fGPazlIZmBfqC/ayoPm2jahdurssiYZV9HXb/MOYXmF6WdP6MIMALx6k18kjAxJflv5FcmvS6ESKU+eBrrh0ug==
 
-"@beemo/driver-babel@^1.2.4", "@beemo/driver-babel@^1.2.5":
+"@beemo/driver-babel@^1.2.5":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.5.tgz#0a496c947ccfaa1840785e71d3b3a584bb0242bf"
   integrity sha512-+6SS3OnMv6aWI2QJQdeJSAPLZzRRfl5Tni9/FrZZUreLXN0qFrVIi+buFFdkQ/QpvZiivfFDzf9Vn8r0tPGX2g==
@@ -2601,25 +2601,25 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.1.tgz#0ace1c7d0377df0ebd150a99ae71418e25bdde66"
   integrity sha512-IMsLXO7VcTSdJM8rGT41HubNsoiO4iE7ZtzyJ0ezSqGSkkz94uhztNnYHiJFzeAJ8MCMOyDAHZiEHBiM68aY6w==
 
-"@rajzik/lumos-common@^2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.8.tgz#90fcfd60814db036898300e4fe29369782e00fa2"
-  integrity sha512-yDFFp0aVzd/gI0TG9jT8t3axv4O5qyN0K0lWBEOXFyoiIH4jC+glWxsjoOqvgOtTBQz8vdXH6cS+xVvMZeppDw==
+"@rajzik/lumos-common@^2.0.8", "@rajzik/lumos-common@^2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.9.tgz#24de698f44e89f947f3b1263a5bac22416a3bb5e"
+  integrity sha512-1CDIljrp7emF7V+FEEd9MAFro530ut7osohmu9X1evVnSrKSlYSnPtV/5CerAX4Lo03Xw5dGoUuKv5tglC9GHg==
   dependencies:
-    "@beemo/core" "^1.1.7"
+    "@beemo/core" "^1.1.8"
     "@boost/common" "^1.8.5"
     execa "^4.0.2"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^3.0.37":
-  version "3.0.37"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.37.tgz#6761db88f3d9f4dc97170766bb9cb4ed487bc65e"
-  integrity sha512-r4pDeZKai+CZzJvD8RV4fvU1mvwnK74LYvig3+NEwx3zF9exncOjF2uvWkTE88pnJfbM8B7bES0+hEY9MesQkw==
+"@rajzik/lumos@^3.0.40":
+  version "3.0.40"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.40.tgz#1571900b94d9e2e461881296b3ea54b2ad8bc195"
+  integrity sha512-yfzpCc1IGQxEEftDl4JaW0vHlL5mWt4aRkXI44lA/VEIdyzcrkHAufcZpCMryFspGJBxSDA/eoLPaHcqhrNhfw==
   dependencies:
     "@beemo/cli" "^1.0.11"
-    "@beemo/core" "^1.1.7"
+    "@beemo/core" "^1.1.8"
     "@rajzik/conventional-changelog-beemo" "^2.0.2"
-    "@rajzik/lumos-common" "^2.0.8"
+    "@rajzik/lumos-common" "^2.0.9"
     chalk "^4.0.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
