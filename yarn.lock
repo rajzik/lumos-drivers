@@ -1111,10 +1111,10 @@
   resolved "https://registry.yarnpkg.com/@beemo/dependency-graph/-/dependency-graph-1.1.1.tgz#66de1321e16723744d25976c00c9c488796307e2"
   integrity sha512-fGPazlIZmBfqC/ayoPm2jahdurssiYZV9HXb/MOYXmF6WdP6MIMALx6k18kjAxJflv5FcmvS6ESKU+eBrrh0ug==
 
-"@beemo/driver-babel@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.4.tgz#4d00ea1d63b0da27c53566be42178f7dcf488c8c"
-  integrity sha512-k4RVbbZkNyPCp/iu/NttBZATZQVv04DK2lcMZQAt+B3KtiRclw1K2t+PJgfldJ+xiN1VM+fDk2YhXeiP9JACmw==
+"@beemo/driver-babel@^1.2.4", "@beemo/driver-babel@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.5.tgz#0a496c947ccfaa1840785e71d3b3a584bb0242bf"
+  integrity sha512-+6SS3OnMv6aWI2QJQdeJSAPLZzRRfl5Tni9/FrZZUreLXN0qFrVIi+buFFdkQ/QpvZiivfFDzf9Vn8r0tPGX2g==
   dependencies:
     rimraf "^3.0.2"
 
@@ -2506,10 +2506,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^1.11.10":
-  version "1.11.10"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.10.tgz#ded08c91ff23ff9dc81765a1b891dbdb25e3f68f"
-  integrity sha512-mMxng81cWMykHQCBvD5MRPSgtLRhAR+FMqa97gBM9PjY8+2syH8LLgJ4KeochKw4dPDwezDPL4xP+hsWdgEfqA==
+"@rajzik/config-babel@^1.11.11":
+  version "1.11.11"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.11.tgz#a49784017c83b28fb3ed97861f1e255d03880b3a"
+  integrity sha512-jBtNb4zY6sjM3mdkPLPh2KvqqwQUbj1QDqRE0Z3V+eGPyfssPF3yUPbPq9J57dMkel4stpOgSLL1OhGQtfCZdA==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.6"
@@ -2522,7 +2522,7 @@
     "@babel/preset-react" "^7.9.4"
     "@babel/preset-typescript" "^7.9.0"
     "@beemo/core" "^1.1.7"
-    "@beemo/driver-babel" "^1.2.4"
+    "@beemo/driver-babel" "^1.2.5"
     "@rajzik/lumos-common" "^2.0.8"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-module-resolver "^4.0.0"
