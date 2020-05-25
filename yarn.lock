@@ -2506,10 +2506,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^1.11.11":
-  version "1.11.11"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.11.tgz#a49784017c83b28fb3ed97861f1e255d03880b3a"
-  integrity sha512-jBtNb4zY6sjM3mdkPLPh2KvqqwQUbj1QDqRE0Z3V+eGPyfssPF3yUPbPq9J57dMkel4stpOgSLL1OhGQtfCZdA==
+"@rajzik/config-babel@^1.11.12":
+  version "1.11.12"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.12.tgz#6ecbc417237d9b48c9a0152be52f799ad061756d"
+  integrity sha512-CxCpiWBCXipPuGC5e6YzNCWINzkgf/xiHZtS8vtNtwAj9vut7GqXrZPu7G8llNswdVXKJzicG3fHirQ2zXvgcA==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.6"
@@ -2521,9 +2521,9 @@
     "@babel/preset-env" "^7.9.6"
     "@babel/preset-react" "^7.9.4"
     "@babel/preset-typescript" "^7.9.0"
-    "@beemo/core" "^1.1.7"
+    "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
-    "@rajzik/lumos-common" "^2.0.8"
+    "@rajzik/lumos-common" "^2.0.9"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-dev "^2.0.1"
