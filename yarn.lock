@@ -1111,7 +1111,7 @@
   resolved "https://registry.yarnpkg.com/@beemo/dependency-graph/-/dependency-graph-1.1.1.tgz#66de1321e16723744d25976c00c9c488796307e2"
   integrity sha512-fGPazlIZmBfqC/ayoPm2jahdurssiYZV9HXb/MOYXmF6WdP6MIMALx6k18kjAxJflv5FcmvS6ESKU+eBrrh0ug==
 
-"@beemo/driver-babel@^1.2.4", "@beemo/driver-babel@^1.2.5":
+"@beemo/driver-babel@^1.2.5":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.5.tgz#0a496c947ccfaa1840785e71d3b3a584bb0242bf"
   integrity sha512-+6SS3OnMv6aWI2QJQdeJSAPLZzRRfl5Tni9/FrZZUreLXN0qFrVIi+buFFdkQ/QpvZiivfFDzf9Vn8r0tPGX2g==
@@ -2611,10 +2611,10 @@
     execa "^4.0.2"
     fast-glob "^3.2.2"
 
-"@rajzik/lumos@^3.0.37":
-  version "3.0.37"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.37.tgz#6761db88f3d9f4dc97170766bb9cb4ed487bc65e"
-  integrity sha512-r4pDeZKai+CZzJvD8RV4fvU1mvwnK74LYvig3+NEwx3zF9exncOjF2uvWkTE88pnJfbM8B7bES0+hEY9MesQkw==
+"@rajzik/lumos@^3.0.39":
+  version "3.0.39"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.39.tgz#5ae3936b7b24c5d5f2d456fbb1d94f35311379af"
+  integrity sha512-kAhVmCo5hzsKiv3ipUdX96cGbmkXPm9z36aTItFAbNJbOnvx3x4AdwbdcHB8BF14872lPt7YO9zRGZ4bngLaHg==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.7"
