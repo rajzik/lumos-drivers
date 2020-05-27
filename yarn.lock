@@ -45,10 +45,10 @@
   dependencies:
     cross-fetch "3.0.4"
 
-"@babel/cli@^7.8.4":
-  version "7.8.4"
-  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.8.4.tgz#505fb053721a98777b2b175323ea4f090b7d3c1c"
-  integrity sha512-XXLgAm6LBbaNxaGhMAznXXaxtCWfuv6PIDJ9Alsy9JYTOh+j2jJz+L/162kkfU1j/pTSxK1xGmlwI4pdIMkoag==
+"@babel/cli@^7.10.0":
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.10.0.tgz#44bfd08feb6f9e4791bf69c62e3b35196269b0e3"
+  integrity sha512-AziyYI4DpD4NmAcBD2xnH8CcIgdRrCGlW7wVL9Ysk736PCSNn2ZZedAUMu5rx/SfMT7Yv+3UReHcWKeQ3wNd/Q==
   dependencies:
     commander "^4.0.1"
     convert-source-map "^1.1.0"
@@ -803,10 +803,10 @@
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-syntax-jsx" "^7.8.3"
 
-"@babel/plugin-transform-react-jsx-source@^7.9.0":
-  version "7.9.0"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.9.0.tgz#89ef93025240dd5d17d3122294a093e5e0183de0"
-  integrity sha512-K6m3LlSnTSfRkM6FcRk8saNEeaeyG5k7AVkBU2bZK3+1zdkSED3qNdsWrUgQBeTVD2Tp3VMmerxVO2yM5iITmw==
+"@babel/plugin-transform-react-jsx-source@^7.10.0", "@babel/plugin-transform-react-jsx-source@^7.9.0":
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.10.0.tgz#0e24978505130a79bb8ee1af15a1a7d8e783347d"
+  integrity sha512-EmUZ2YYXK6YFIdSxUJ1thg7gIBMHSEp8nGS6GwkXGpGdplpmOhj6azYjszT8YcFt6HyPElycDOd2lXckzN+OEw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-syntax-jsx" "^7.8.3"
@@ -2506,17 +2506,17 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^1.11.12":
-  version "1.11.12"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.12.tgz#6ecbc417237d9b48c9a0152be52f799ad061756d"
-  integrity sha512-CxCpiWBCXipPuGC5e6YzNCWINzkgf/xiHZtS8vtNtwAj9vut7GqXrZPu7G8llNswdVXKJzicG3fHirQ2zXvgcA==
+"@rajzik/config-babel@^1.11.13":
+  version "1.11.13"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.13.tgz#d196ea3bf819af06fc014a0b4c6fe58fa7b7a9ee"
+  integrity sha512-RTNaztAAQ79mppsThzlWRVgDUkHdNDOG8POohmOkUPJepz6XLRzEc0fk3Iig2trwiuNcdS+qDKU1U07Cv81tAg==
   dependencies:
-    "@babel/cli" "^7.8.4"
+    "@babel/cli" "^7.10.0"
     "@babel/core" "^7.9.6"
     "@babel/plugin-proposal-class-properties" "^7.8.3"
     "@babel/plugin-proposal-export-namespace-from" "^7.8.3"
     "@babel/plugin-transform-react-jsx-self" "^7.9.0"
-    "@babel/plugin-transform-react-jsx-source" "^7.9.0"
+    "@babel/plugin-transform-react-jsx-source" "^7.10.0"
     "@babel/plugin-transform-runtime" "^7.9.6"
     "@babel/preset-env" "^7.9.6"
     "@babel/preset-react" "^7.9.4"
