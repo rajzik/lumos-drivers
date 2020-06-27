@@ -3455,17 +3455,17 @@
     eslint-plugin-testing-library "^3.3.0"
     eslint-plugin-unicorn "^20.1.0"
 
-"@rajzik/config-jest@^1.10.24":
-  version "1.10.24"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.24.tgz#5c6f97508bddc49d5becf80c2de9096bc56a9476"
-  integrity sha512-pl8LZGqTZ1ZRAmxvtq+jo5/ek4nG+qoqnDpe25BNlIfzBFsDVzQU6eXCKuQRcTk8cScskuGoItv1vWHVwyy1Cg==
+"@rajzik/config-jest@^1.10.25":
+  version "1.10.25"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.25.tgz#3bada8cefd5473875922719755309b7e814144b6"
+  integrity sha512-1DlEg8M7RQphY900hALYsam9DfnAxY3bQ3RnXq64hYaL/GITJWMlHd6iOP0+9spxTVeuBq0jt3sOEga8HzV7tQ==
   dependencies:
     "@babel/core" "^7.10.3"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
     "@beemo/driver-jest" "^1.2.3"
     "@rajzik/lumos-common" "^2.0.11"
-    "@types/jest" "^26.0.0"
+    "@types/jest" "^26.0.3"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
     dom-storage "^2.1.0"
@@ -3652,10 +3652,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^26.0.0":
-  version "26.0.0"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.0.tgz#a6d7573dffa9c68cbbdf38f2e0de26f159e11134"
-  integrity sha512-/yeMsH9HQ1RLORlXAwoLXe8S98xxvhNtUz3yrgrwbaxYjT+6SFPZZRksmRKRA6L5vsUtSHeN71viDOTTyYAD+g==
+"@types/jest@^26.0.3":
+  version "26.0.3"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.3.tgz#79534e0e94857171c0edc596db0ebe7cb7863251"
+  integrity sha512-v89ga1clpVL/Y1+YI0eIu1VMW+KU7Xl8PhylVtDKVWaSUHBHYPLXMQGBdrpHewaKoTvlXkksbYqPgz8b4cmRZg==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
