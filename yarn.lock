@@ -3512,15 +3512,15 @@
     execa "^4.0.2"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^3.0.68":
-  version "3.0.68"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.68.tgz#9e6c57cd09c5219015287ab1268be18f208ffbaf"
-  integrity sha512-f/6lVy4vjSJUv3GSDqs7s0yMMr3fBPgBIRb2SjkaZmL0anFynHdWCK5LQBj417JSM4BvKm2YFu5bGLsp/aVx5w==
+"@rajzik/lumos@^3.0.76":
+  version "3.0.76"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.76.tgz#563bb789389d799c9df4231d8e88697dccd63a80"
+  integrity sha512-bsikfejJlsIf/13bMYYNN6FsUzfJp8UQ5A77P57VrwV0E/IjR259tsR74zCiXOtA/j17KGMA0Kb+BXAl1x2F8A==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@rajzik/conventional-changelog-beemo" "^2.0.2"
-    "@rajzik/lumos-common" "^2.0.10"
+    "@rajzik/lumos-common" "^2.0.11"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
@@ -5063,7 +5063,7 @@ chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.1, chalk@^2.4.1, chalk@^2.4.2:
+chalk@^2.0.0, chalk@^2.3.1, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
