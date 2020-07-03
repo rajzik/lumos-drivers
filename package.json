@@ -11,7 +11,7 @@
     "@rajzik/config-eslint": "^2.4.61",
     "@rajzik/config-jest": "^1.10.26",
     "@rajzik/config-prettier": "^1.6.29",
-    "@rajzik/config-typescript": "^1.7.10",
+    "@rajzik/config-typescript": "^1.7.11",
     "@rajzik/conventional-changelog-lint-config-beemo": "^1.0.1",
     "@rajzik/lumos": "^3.0.83",
     "husky": "^4.2.5",
