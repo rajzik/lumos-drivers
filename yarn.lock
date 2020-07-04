@@ -3352,10 +3352,10 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     babel-plugin-typescript-to-proptypes "^1.3.2"
 
-"@rajzik/config-eslint@^2.4.61":
-  version "2.4.61"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.61.tgz#ff781782eabbb8561b2ddb76840e225e799513ae"
-  integrity sha512-Calm3WV79CSTbe3s5sLI3KiV08C0LvWVsIfwfYKxjL07pv/bo5BU1b2JjurkDg2k90b1JemB86glMbIw4KuEeg==
+"@rajzik/config-eslint@^2.4.62":
+  version "2.4.62"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.62.tgz#87c085645662048016974113464e6b2142a32685"
+  integrity sha512-rE1fllZ6/7vj5Xk0IxJho//b7Pax16Td4teb/tkvlCwLjhHAGFFmzTmpM4p5hb41tchmT8F1qdmFkIDxLYvDBQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
@@ -3363,7 +3363,7 @@
     "@typescript-eslint/eslint-plugin" "^3.5.0"
     "@typescript-eslint/parser" "^3.5.0"
     babel-eslint "^10.1.0"
-    eslint "^7.3.1"
+    eslint "^7.4.0"
     eslint-config-airbnb "^18.2.0"
     eslint-config-prettier "^6.11.0"
     eslint-import-resolver-typescript "^2.0.0"
@@ -6703,10 +6703,10 @@ eslint-visitor-keys@^1.2.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.2.0.tgz#74415ac884874495f78ec2a97349525344c981fa"
   integrity sha512-WFb4ihckKil6hu3Dp798xdzSfddwKKU3+nGniKF6HfeW6OLd2OUDEPP7TcHtB5+QXOKg2s6B2DaMPE1Nn/kxKQ==
 
-eslint@^7.3.1:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.3.1.tgz#76392bd7e44468d046149ba128d1566c59acbe19"
-  integrity sha512-cQC/xj9bhWUcyi/RuMbRtC3I0eW8MH0jhRELSvpKYkWep3C6YZ2OkvcvJVUeO6gcunABmzptbXBuDoXsjHmfTA==
+eslint@^7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.4.0.tgz#4e35a2697e6c1972f9d6ef2b690ad319f80f206f"
+  integrity sha512-gU+lxhlPHu45H3JkEGgYhWhkR9wLHHEXC9FbWFnTlEkbKyZKWgWRLgf61E8zWmBuI6g5xKBph9ltg3NtZMVF8g==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
