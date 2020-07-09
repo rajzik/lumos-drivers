@@ -3414,10 +3414,10 @@
     "@beemo/driver-typescript" "^1.4.0"
     typescript "^3.9.6"
 
-"@rajzik/conventional-changelog-beemo@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.0.2.tgz#50d172dcdef3b29bb482961f808c3b95f41b331a"
-  integrity sha512-qQxH312ThK60hHi606AYK7dy/dcFe9ZeRLMy/XVfs/p8/2Wq7Zi/sCEw2wa/MsD75kPnX00pw6MmKmkqWadWNQ==
+"@rajzik/conventional-changelog-beemo@^2.0.4":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-beemo/-/conventional-changelog-beemo-2.0.5.tgz#5a65b65c451d5026a784d777b8f1acd143947d57"
+  integrity sha512-v7Nioi7EKo7vM3IcoCCkoBiGqScxA7u6zpSD6FhYdJ4P4yJme6kifCqGtmt6U9KvBso9y3Sy9NfBiN7iga4Tkg==
 
 "@rajzik/conventional-changelog-lint-config-beemo@^1.0.2":
   version "1.0.2"
@@ -3434,14 +3434,14 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^3.0.91":
-  version "3.0.91"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.91.tgz#0024be8b8edbcf7bfb205792777563b952823d12"
-  integrity sha512-6eVkZ4i4D+3c6qxW7Gnubb+bxWYzCLdQ1pX+mHKNjnAmADbcVxxgMu9T/BWADZU7mtfB60LOZ0pEn6Vtlx0B1w==
+"@rajzik/lumos@^3.0.92":
+  version "3.0.92"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.92.tgz#658d7521ad239bc9358e3f2b0ba7746a3baef601"
+  integrity sha512-t16Ns19KqzeOnv4t0oX+ls0ZygdsszbD1qY61XTvB1MwYygdGhddksgGNFjjZe4jPuzu04/uKPukcbYwpUVjRQ==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
-    "@rajzik/conventional-changelog-beemo" "^2.0.2"
+    "@rajzik/conventional-changelog-beemo" "^2.0.4"
     "@rajzik/lumos-common" "^2.0.12"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
@@ -6850,36 +6850,6 @@ execa@^3.2.0, execa@^3.4.0:
     strip-final-newline "^2.0.0"
 
 execa@^4.0.0, execa@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
-  integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
-
-execa@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
-  integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
-
-execa@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
   integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
