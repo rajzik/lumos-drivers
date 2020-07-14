@@ -8,7 +8,7 @@
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@rajzik/config-babel": "^1.11.25",
-    "@rajzik/config-eslint": "^2.4.67",
+    "@rajzik/config-eslint": "^2.4.68",
     "@rajzik/config-jest": "^1.10.26",
     "@rajzik/config-prettier": "^1.6.31",
     "@rajzik/config-typescript": "^1.7.11",
