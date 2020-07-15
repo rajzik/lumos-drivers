@@ -1970,16 +1970,17 @@
     optimal "^4.2.0"
     pretty-ms "^5.1.0"
 
-"@boost/common@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-1.9.0.tgz#9f0cf25320e819ab8eaba373e052e69ad74482a8"
-  integrity sha512-noa7rTHvOjEz+RBAiQetD3/I3vBgj4ssrmcN4ElMXrFEDgcrHeWWnJ/iMx8JeSUAtedyh6XNSjiwgjToS67x5w==
+"@boost/common@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.0.0.tgz#3a9ecc961e547266695a7b26ed39cf6a0b7528b5"
+  integrity sha512-j4LOWX+3CC+2llmERThc+iU+iuqQ9vgSWsmKQta2go2LlK0m3cZMWQZWI7bAMuoeqd0a1i+MpIgTvO18Dsxnww==
   dependencies:
-    "@boost/internal" "^1.2.0"
+    "@boost/internal" "^2.0.0"
+    fast-glob "^3.2.4"
     json5 "^2.1.3"
     optimal "^4.2.0"
-    pretty-ms "^5.1.0"
-    yaml "^1.9.2"
+    pretty-ms "^7.0.0"
+    yaml "^1.10.0"
 
 "@boost/core@^1.18.6":
   version "1.18.6"
@@ -2034,6 +2035,14 @@
   integrity sha512-G+F62WMOReCD/tXC1gQgvhfbVXEtorNJZFcYZ0sG4KHWlJK0gw6DZpoFG8tCrUKQuZ5aXmA783w3iypRTCZzpg==
   dependencies:
     chalk "^3.0.0"
+    debug "^4.1.1"
+
+"@boost/internal@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@boost/internal/-/internal-2.0.0.tgz#4fc15b4321f1ade579c7628b71b679117fc9a544"
+  integrity sha512-RQn1iRM+7k0VzJJvaofx28YYpvJWWCUVMoYGI91q1tELEWobNR6v3udps0QW/QSHOoUvM4j6aCkT57hd+ojzQw==
+  dependencies:
+    chalk "^4.1.0"
     debug "^4.1.1"
 
 "@boost/log@^1.2.0":
@@ -3424,25 +3433,25 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.2.tgz#d14f0b87c758a7deb45cda15a077e134348df76d"
   integrity sha512-wIsY2yAU2Q/dC+FZO7d2eYlyUwu0YaCr73Tk1BtSbAksjaf43oe1P8pWAe0GRqLrMuwpWTBWQ/tVZNYoejsytQ==
 
-"@rajzik/lumos-common@^2.0.11", "@rajzik/lumos-common@^2.0.12":
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.12.tgz#a760d0c71d6780f252dd529b6cad8efd23d2f4ec"
-  integrity sha512-TR0FKKsM/WVkaNKA8fZ2a35AEyscyjv8RPxD3oFzX+KIsSpWRYGl1TVWWCK5O/GSs69QSG/7SxkO8uQ6WFHSYw==
+"@rajzik/lumos-common@^2.0.11", "@rajzik/lumos-common@^2.0.12", "@rajzik/lumos-common@^2.0.13":
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.13.tgz#db68c577b6ada5289a165908f07efd479327ac3d"
+  integrity sha512-N0D7PuNlSFwZwXCHevjGk424oyam9BS8aixspiZh5WWaF2fioO9xkZ2Gx4c7gZloZ1yb5AtYD4nqD2DGI3sCzw==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^1.9.0"
+    "@boost/common" "^2.0.0"
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^3.0.94":
-  version "3.0.94"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.94.tgz#02d652072476c0741b14cb3b1c9414c0eb5fdb3f"
-  integrity sha512-n64smIKmLGobNN+gaR3nrX8todyhSuEYnD+hAj63g2YbEhe1ldisR+Y/LAecwmugdbZyV66wtJozyeyOgDA11Q==
+"@rajzik/lumos@^3.0.97":
+  version "3.0.97"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.97.tgz#cf719c5b52503db8e3716e9c5749badc9cd0b19c"
+  integrity sha512-8D8h0u7RI0lZya3y6M4SsIlDaw8X4lvBP3+qiP51t5gFitR8OYu2SDAf1fuzfmuZLDyzolPgebyG9xYkrOAHLw==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@rajzik/conventional-changelog-beemo" "^2.0.5"
-    "@rajzik/lumos-common" "^2.0.12"
+    "@rajzik/lumos-common" "^2.0.13"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
@@ -11194,6 +11203,13 @@ pretty-ms@^5.1.0:
   dependencies:
     parse-ms "^2.1.0"
 
+pretty-ms@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-7.0.0.tgz#45781273110caf35f55cab21a8a9bd403a233dc0"
+  integrity sha512-J3aPWiC5e9ZeZFuSeBraGxSkGMOvulSWsxDByOcbD1Pr75YL3LSNIKIb52WXbCLE1sS5s4inBBbryjF4Y05Ceg==
+  dependencies:
+    parse-ms "^2.1.0"
+
 private@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -13830,17 +13846,17 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
+yaml@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.0.tgz#3b593add944876077d4d683fee01081bd9fff31e"
+  integrity sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
+
 yaml@^1.7.2:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.8.2.tgz#a29c03f578faafd57dcb27055f9a5d569cb0c3d9"
   integrity sha512-omakb0d7FjMo3R1D2EbTKVIk6dAVLRxFXdLZMEUToeAvuqgG/YuHMuQOZ5fgk+vQ8cx+cnGKwyg+8g8PNT0xQg==
   dependencies:
     "@babel/runtime" "^7.8.7"
-
-yaml@^1.9.2:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.0.tgz#3b593add944876077d4d683fee01081bd9fff31e"
-  integrity sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
 
 yargs-parser@10.x, yargs-parser@^10.0.0:
   version "10.1.0"
