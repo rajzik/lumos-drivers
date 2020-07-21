@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^9.0.1",
+    "@commitlint/cli": "^9.1.1",
     "@rajzik/config-babel": "^1.11.29",
     "@rajzik/config-eslint": "^2.4.70",
     "@rajzik/config-jest": "^1.10.26",
