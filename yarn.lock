@@ -114,7 +114,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.10.4", "@babel/core@^7.10.5", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.10.5", "@babel/core@^7.7.5":
   version "7.10.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.10.5.tgz#1f15e2cca8ad9a1d78a38ddba612f5e7cdbbd330"
   integrity sha512-O34LQooYVDXPl7QWCdW9p4NR+QlzOr7xShPPJz8GsuCU3/8ua/wqTr7gmnxXv+WBESiGU/G5s16i6tUvHkNb+w==
@@ -3437,17 +3437,17 @@
     eslint-plugin-testing-library "^3.3.1"
     eslint-plugin-unicorn "^21.0.0"
 
-"@rajzik/config-jest@^1.10.26":
-  version "1.10.26"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.26.tgz#51f60f6e5bace53f92218a193e9bf150016dc8ca"
-  integrity sha512-QA2Llsnf1WZdoP0bqlvJzUE2UdBd87HRTdSQoX+XPXuD7LL8DFu3TqgQiIh6IL1c/wUDjsJzzO472wKwiF7iNw==
+"@rajzik/config-jest@^1.10.31":
+  version "1.10.31"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.31.tgz#3a58caeb2e8c03a8502b2b6ae1e7b6cd49b5ef91"
+  integrity sha512-6PNN42exxEsNnuZ1TUKnSs6mQs1g376mr8MleyRnoBC1QDpyJpJzJ1nXyUaP4utg4kJlvx0VLLBYXBJwk0szQg==
   dependencies:
-    "@babel/core" "^7.10.4"
+    "@babel/core" "^7.10.5"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
     "@beemo/driver-jest" "^1.2.3"
-    "@rajzik/lumos-common" "^2.0.11"
-    "@types/jest" "^26.0.3"
+    "@rajzik/lumos-common" "^2.0.13"
+    "@types/jest" "^26.0.5"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
     dom-storage "^2.1.0"
@@ -3484,7 +3484,7 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.3.tgz#f5582db6cc80496df2da32a48318ff86e6541f19"
   integrity sha512-R5NzNjRw2wk745jGs+25C3tZ7/SE9dcigYORHLUVIGJXmLRgT6OzL/u9NJ36QtWQdT4iDAn27zxWo3ZKx/U7BA==
 
-"@rajzik/lumos-common@^2.0.11", "@rajzik/lumos-common@^2.0.12", "@rajzik/lumos-common@^2.0.13":
+"@rajzik/lumos-common@^2.0.12", "@rajzik/lumos-common@^2.0.13":
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.13.tgz#db68c577b6ada5289a165908f07efd479327ac3d"
   integrity sha512-N0D7PuNlSFwZwXCHevjGk424oyam9BS8aixspiZh5WWaF2fioO9xkZ2Gx4c7gZloZ1yb5AtYD4nqD2DGI3sCzw==
@@ -3634,10 +3634,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^26.0.3":
-  version "26.0.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.3.tgz#79534e0e94857171c0edc596db0ebe7cb7863251"
-  integrity sha512-v89ga1clpVL/Y1+YI0eIu1VMW+KU7Xl8PhylVtDKVWaSUHBHYPLXMQGBdrpHewaKoTvlXkksbYqPgz8b4cmRZg==
+"@types/jest@^26.0.5":
+  version "26.0.5"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.5.tgz#23a8eecf4764a770ea8d3a0d1ea16b96c822035d"
+  integrity sha512-heU+7w8snfwfjtcj2H458aTx3m5unIToOJhx75ebHilBiiQ39OIdA18WkG4LP08YKeAoWAGvWg8s+22w/PeJ6w==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
