@@ -3412,10 +3412,10 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     babel-plugin-typescript-to-proptypes "^1.4.0"
 
-"@rajzik/config-eslint@^2.4.72":
-  version "2.4.72"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.72.tgz#c93a9111216ee4b1f272dfa8378004a31338d873"
-  integrity sha512-DLn/7twYY2PlfeSlHkQL+vU4W/5bN8aM3AUcIzjcuu59f0t1Ph1/fmO5UWRG5Q8QfKi/woor+xcPDJqGI6GkJg==
+"@rajzik/config-eslint@^2.4.73":
+  version "2.4.73"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-eslint/-/config-eslint-2.4.73.tgz#9c8ad253af7e3ddccc6078a6edfcfd3765b5c3c5"
+  integrity sha512-iOoyZ/zMcb0to5iW+sIGL70F1PVGlU/7gcTM3p+hO7gHzLiNN1WM3p9iWl2pfEpcBAlZCjrDigZeOG03eqn6zA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
@@ -3428,7 +3428,7 @@
     eslint-config-prettier "^6.11.0"
     eslint-import-resolver-typescript "^2.0.0"
     eslint-plugin-import "^2.22.0"
-    eslint-plugin-jest "^23.18.0"
+    eslint-plugin-jest "^23.18.2"
     eslint-plugin-jsx-a11y "^6.3.1"
     eslint-plugin-prettier "^3.1.4"
     eslint-plugin-promise "^4.2.1"
@@ -6630,10 +6630,10 @@ eslint-plugin-import@^2.22.0:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^23.18.0:
-  version "23.18.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.18.0.tgz#4813eacb181820ed13c5505f400956d176b25af8"
-  integrity sha512-wLPM/Rm1SGhxrFQ2TKM/BYsYPhn7ch6ZEK92S2o/vGkAAnDXM0I4nTIo745RIX+VlCRMFgBuJEax6XfTHMdeKg==
+eslint-plugin-jest@^23.18.2:
+  version "23.18.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.18.2.tgz#9cebb2c93729ccabc1d01cf45c59e9ee6afec80d"
+  integrity sha512-afVOE47F0PENnRlnePUHgrDbv1tsDlTAVrjL051oUETB2ImzBwa5GfmUAUhDjAEuxH+xkE6DsmEpZ8obXzUMqQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
