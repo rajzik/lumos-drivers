@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 0.1.16 - 2020-07-30
+
+#### 🛠 Internals
+
+- bump next from 9.5.0 to 9.5.1 (#282) ([546a77a](https://github.com/rajzik/lumos-drivers/commit/546a77a)), closes [#282](https://github.com/rajzik/lumos-drivers/issues/282)
+
+**Note:** Version bump only for package beemo-driver-next
+
+
+
+
+
 ### 0.1.15 - 2020-07-28
 
 #### 🛠 Internals
