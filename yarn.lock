@@ -2018,10 +2018,10 @@
     optimal "^4.2.0"
     pretty-ms "^5.1.0"
 
-"@boost/common@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.0.0.tgz#3a9ecc961e547266695a7b26ed39cf6a0b7528b5"
-  integrity sha512-j4LOWX+3CC+2llmERThc+iU+iuqQ9vgSWsmKQta2go2LlK0m3cZMWQZWI7bAMuoeqd0a1i+MpIgTvO18Dsxnww==
+"@boost/common@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.1.0.tgz#b66acf7ad79033e75ac64aaebe7fa55e9c86a2f2"
+  integrity sha512-GrfC0ghs+nFDAChJR+CYn8dd/C7F6mn/JScXmSC/sC0P/Up9kn06WZmbFPTzAOheIEv31pIEO0sUTW1DyBGzzg==
   dependencies:
     "@boost/internal" "^2.0.0"
     fast-glob "^3.2.4"
@@ -3384,10 +3384,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^1.11.29":
-  version "1.11.29"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.29.tgz#e46965e8e6a440675c222fccf208f5c2f153fb9f"
-  integrity sha512-mte5eljuZV6HqG7u5sWq7DXMf+ff9iSKpzc7M93bNoPyLT+50LkxOxADT9IFiWPVJ8ePRPEzlIwu+yScEoIz9w==
+"@rajzik/config-babel@^1.11.30":
+  version "1.11.30"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.30.tgz#eba9887c9cadc5f91ff8f3d6031c228a1ead89c3"
+  integrity sha512-vMnL6WKA8LbmG69WdmWyv2TQkTpCUKChMFPk6lIULavX1asennE0Vdlru3DvUteFIOIDxBeHG3OOTSFbY4tFIw==
   dependencies:
     "@babel/cli" "^7.10.5"
     "@babel/core" "^7.10.5"
@@ -3402,7 +3402,7 @@
     "@babel/preset-typescript" "^7.10.4"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
-    "@rajzik/lumos-common" "^2.0.13"
+    "@rajzik/lumos-common" "^2.0.14"
     babel-plugin-graphql-tag "^2.5.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-dev "^2.0.1"
@@ -3481,13 +3481,13 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.3.tgz#f5582db6cc80496df2da32a48318ff86e6541f19"
   integrity sha512-R5NzNjRw2wk745jGs+25C3tZ7/SE9dcigYORHLUVIGJXmLRgT6OzL/u9NJ36QtWQdT4iDAn27zxWo3ZKx/U7BA==
 
-"@rajzik/lumos-common@^2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.13.tgz#db68c577b6ada5289a165908f07efd479327ac3d"
-  integrity sha512-N0D7PuNlSFwZwXCHevjGk424oyam9BS8aixspiZh5WWaF2fioO9xkZ2Gx4c7gZloZ1yb5AtYD4nqD2DGI3sCzw==
+"@rajzik/lumos-common@^2.0.13", "@rajzik/lumos-common@^2.0.14":
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.14.tgz#1ede8476fdeacbce7669ec9e1771c38da34dddd1"
+  integrity sha512-qHcogRyRBrstYXHrwaZMlC5GMZWGqbZ64V7nChLIVjLcmBttPraNh49v3cM+pBvZH858q/9Cy6XH5+7jhRYW9A==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.0.0"
+    "@boost/common" "^2.1.0"
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
