@@ -7,7 +7,7 @@
   "private": true,
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
-    "@rajzik/config-babel": "^1.11.29",
+    "@rajzik/config-babel": "^1.11.31",
     "@rajzik/config-eslint": "^2.4.76",
     "@rajzik/config-jest": "^1.10.34",
     "@rajzik/config-prettier": "^1.6.32",
