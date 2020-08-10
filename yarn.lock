@@ -3571,10 +3571,10 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^3.0.117":
-  version "3.0.117"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.117.tgz#a78fe12509b915ce58b0890a576a232ccf560bdb"
-  integrity sha512-oNw7TZntt5o0vll2XBbqwRZ7oowqRh2sWR+R9Pv1voFD5kcLOE5ZlguD6oSElhkNKj9Ls57emEMyqKnE2yBW/Q==
+"@rajzik/lumos@^3.0.118":
+  version "3.0.118"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-3.0.118.tgz#a9b94c8c184c8a182b885812b1c4aefa3dc26e85"
+  integrity sha512-73ye1CcJXl9EaK02VeLCCGz3edRL2wUXaEj4+fd1R2kxiqBmcX/8vCAqQ69KAkEEabU4iNVE4Y3/ODpmyJE+8Q==
   dependencies:
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
@@ -3583,7 +3583,7 @@
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
-    edit-json-file "^1.4.0"
+    edit-json-file "^1.4.1"
     enquirer "^2.3.6"
     execa "^4.0.3"
 
@@ -6373,10 +6373,10 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-edit-json-file@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/edit-json-file/-/edit-json-file-1.4.0.tgz#bb244abf7fc47a23f3dfb7c106a80f2ef83c39c3"
-  integrity sha512-QS2UtS5sbGbufsZPAvL67kq1xUndVgEJv2cusf7sY+T1c0uqxaRTGD/PrUlkZWkeybiEhrRPSfuCyrj6jRMcag==
+edit-json-file@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/edit-json-file/-/edit-json-file-1.4.1.tgz#a2f00f482c65922da61087d48bf91c90a63d0477"
+  integrity sha512-YqnKYc2+F+j4Y0qGVKY36Qzb7zusQnQU3JFyqDAZU+vVdtPPqrFtVytsTsCC2kMej5I0BkUCCfPMQq6w5j+cBg==
   dependencies:
     find-value "^1.0.3"
     iterate-object "^1.3.2"
