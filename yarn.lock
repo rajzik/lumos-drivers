@@ -130,7 +130,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.11.0", "@babel/core@^7.11.1", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.11.1", "@babel/core@^7.7.5":
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.1.tgz#2c55b604e73a40dc21b0e52650b11c65cf276643"
   integrity sha512-XqF7F6FWQdKGGWAzGELL+aCO1p+lRY5Tj5/tbT3St1G8NaH70jhhDIKknIZaDans0OQBG5wRAldROLHSt44BgQ==
@@ -3489,17 +3489,17 @@
     eslint-plugin-testing-library "^3.3.2"
     eslint-plugin-unicorn "^21.0.0"
 
-"@rajzik/config-jest@^1.10.37":
-  version "1.10.37"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.37.tgz#da39e049b8c32f2751c06645b1e137bc674d62bd"
-  integrity sha512-reSs+sz/SrK78gZeqrfrSZGpB6gF54IW+l8XX+Y9eHgFTQLfAopy62TI10+YD2ZEEnpHEotFH4rvksYqY6cGRg==
+"@rajzik/config-jest@^1.10.39":
+  version "1.10.39"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.39.tgz#c03756eaebe282fdbfc8d3ccac5e1d4aef69ed30"
+  integrity sha512-6x6/tP9ldTDCh4Pc0OjHqn9Drwe6g+PLX626JQa0wfUt0EvaoAIEd60vsKsQHpvhI03FsGxsBRAHWPMwUkRVLg==
   dependencies:
-    "@babel/core" "^7.11.0"
+    "@babel/core" "^7.11.1"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
     "@beemo/driver-jest" "^1.2.3"
     "@rajzik/lumos-common" "^2.0.14"
-    "@types/jest" "^26.0.8"
+    "@types/jest" "^26.0.9"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
     dom-storage "^2.1.0"
@@ -3686,10 +3686,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^26.0.8":
-  version "26.0.8"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.8.tgz#f5c5559cf25911ce227f7ce30f1f160f24966369"
-  integrity sha512-eo3VX9jGASSuv680D4VQ89UmuLZneNxv2MCZjfwlInav05zXVJTzfc//lavdV0GPwSxsXJTy2jALscB7Acqg0g==
+"@types/jest@^26.0.9":
+  version "26.0.9"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.9.tgz#0543b57da5f0cd949c5f423a00c56c492289c989"
+  integrity sha512-k4qFfJ5AUKrWok5KYXp2EPm89b0P/KZpl7Vg4XuOTVVQEhLDBDBU3iBFrjjdgd8fLw96aAtmnwhXHl63bWeBQQ==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
