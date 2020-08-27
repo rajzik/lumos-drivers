@@ -130,7 +130,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.11.1", "@babel/core@^7.11.4", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.11.4", "@babel/core@^7.7.5":
   version "7.11.4"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.4.tgz#4301dfdfafa01eeb97f1896c5501a3f0655d4229"
   integrity sha512-5deljj5HlqRXN+5oJTY7Zs37iH3z3b++KjiKtIsJy1NrjOOVSEaJHEetLBhyu0aQOSNNZ/0IuEAan9GzRuDXHg==
@@ -3460,13 +3460,13 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^1.11.34":
-  version "1.11.34"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.34.tgz#0aa153a1c51e0422682e79f9b82908349207c273"
-  integrity sha512-OZnBoCXtcTl+MMSRr1koFa2wTKHv6OF8GN64bPaXqLQUJhRoFJ4feHd6il6vAnUAngPg44/UDSOvOFmpmYEFxg==
+"@rajzik/config-babel@^1.11.36":
+  version "1.11.36"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.36.tgz#ed06f1cb4e00e09bc3fca694d17009bb588a2073"
+  integrity sha512-w4iMDePC4gUB8aI7rqDyaMHpsKlgFAaQO7Uk8EiiQdEtaoG48t7wIvof+EXzp6FJB8Cl7/YKaOuB8njDJ+GM3A==
   dependencies:
     "@babel/cli" "^7.10.5"
-    "@babel/core" "^7.11.1"
+    "@babel/core" "^7.11.4"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "^7.10.4"
     "@babel/plugin-proposal-private-methods" "^7.10.4"
@@ -3478,7 +3478,7 @@
     "@babel/preset-typescript" "^7.10.4"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.5"
-    "@rajzik/lumos-common" "^2.0.14"
+    "@rajzik/lumos-common" "^2.0.15"
     babel-plugin-graphql-tag "^3.0.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-dev "^2.0.1"
@@ -3557,7 +3557,7 @@
   resolved "https://registry.yarnpkg.com/@rajzik/conventional-changelog-lint-config-beemo/-/conventional-changelog-lint-config-beemo-1.0.3.tgz#f5582db6cc80496df2da32a48318ff86e6541f19"
   integrity sha512-R5NzNjRw2wk745jGs+25C3tZ7/SE9dcigYORHLUVIGJXmLRgT6OzL/u9NJ36QtWQdT4iDAn27zxWo3ZKx/U7BA==
 
-"@rajzik/lumos-common@^2.0.14", "@rajzik/lumos-common@^2.0.15":
+"@rajzik/lumos-common@^2.0.15":
   version "2.0.15"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.0.15.tgz#3d12129d891c19bb9a5e85bd6248e7d8d91a7558"
   integrity sha512-tKf6nYr7836mB3jFL7WnxHdWGR2abi7jvyaLXqD04quqa3XMuzy8gtuGmox1ZZeaz2vgOBEHHCvpkI9RwSmUfQ==
