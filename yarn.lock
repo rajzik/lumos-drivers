@@ -114,7 +114,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.11.4", "@babel/core@^7.11.6", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.11.6", "@babel/core@^7.7.5":
   version "7.11.6"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.11.6.tgz#3a9455dc7387ff1bac45770650bc13ba04a15651"
   integrity sha512-Wpcv03AGnmkgm6uS6k8iwhIwTrcP0m17TL1n1sy7qD0qelDu4XNeW0dN0mHfa+Gei211yDaLoEe/VlbXQzM4Bg==
@@ -1347,7 +1347,7 @@
   resolved "https://registry.yarnpkg.com/@beemo/dependency-graph/-/dependency-graph-1.1.1.tgz#66de1321e16723744d25976c00c9c488796307e2"
   integrity sha512-fGPazlIZmBfqC/ayoPm2jahdurssiYZV9HXb/MOYXmF6WdP6MIMALx6k18kjAxJflv5FcmvS6ESKU+eBrrh0ug==
 
-"@beemo/driver-babel@^1.2.5", "@beemo/driver-babel@^1.2.6":
+"@beemo/driver-babel@^1.2.6":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@beemo/driver-babel/-/driver-babel-1.2.6.tgz#cb54462aac5444188ba19b5452cafca4a8b9d7f9"
   integrity sha512-ZQTi87HDBkJwsmtBsL2RYKJ7LH3z/tcxTtkrEBGPCeElBUdQ9Drr1adqQP1AWim9/vq6U/PmiLHl7a+nIBV8Sg==
@@ -2821,17 +2821,17 @@
     eslint-plugin-testing-library "^3.7.0"
     eslint-plugin-unicorn "^21.0.0"
 
-"@rajzik/config-jest@^1.10.46":
-  version "1.10.46"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.46.tgz#66097c4b025a7c0a808d98834cedcdde884fe6db"
-  integrity sha512-sCYQKxv0qyuiN4qyzpLxYC7iXAO6FJ4BQ7j/Hx2mUaDBWN6zWWzZNAXkhRhu1cqYEAIcmgNzC3uiLUSBgjP71g==
+"@rajzik/config-jest@^1.10.50":
+  version "1.10.50"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-1.10.50.tgz#a8c29de9ab36e9192721969fd32998bf0cb9608f"
+  integrity sha512-UEeud+Wfz933S5zKH+hR3GZbNy8pyUQPUYCNElmM5ZcWgP13TtHYVb2rTYBaFADEd4xulfXwmQBFV4aVy9RKfQ==
   dependencies:
-    "@babel/core" "^7.11.4"
+    "@babel/core" "^7.11.6"
     "@beemo/core" "^1.1.8"
-    "@beemo/driver-babel" "^1.2.5"
+    "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@rajzik/lumos-common" "^2.0.15"
-    "@types/jest" "^26.0.10"
+    "@rajzik/lumos-common" "^2.1.0"
+    "@types/jest" "^26.0.13"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
     dom-storage "^2.1.0"
@@ -3025,10 +3025,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^26.0.10":
-  version "26.0.10"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.10.tgz#8faf7e9756c033c39014ae76a7329efea00ea607"
-  integrity sha512-i2m0oyh8w/Lum7wWK/YOZJakYF8Mx08UaKA1CtbmFeDquVhAEdA7znacsVSf2hJ1OQ/OfVMGN90pw/AtzF8s/Q==
+"@types/jest@^26.0.13":
+  version "26.0.13"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.13.tgz#5a7b9d5312f5dd521a38329c38ee9d3802a0b85e"
+  integrity sha512-sCzjKow4z9LILc6DhBvn5AkIfmQzDZkgtVVKmGwVrs5tuid38ws281D4l+7x1kP487+FlKDh5kfMZ8WSPAdmdA==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
