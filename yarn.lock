@@ -609,6 +609,14 @@
     "@babel/helper-create-class-features-plugin" "^7.10.4"
     "@babel/helper-plugin-utils" "^7.10.4"
 
+"@babel/plugin-proposal-private-property-in-object@^7.10.4":
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-private-property-in-object/-/plugin-proposal-private-property-in-object-7.10.4.tgz#8ac0f9785bdf2f86e48222a2217e8af98d6ba2c0"
+  integrity sha512-7PqUXlH+U57oHjfi7h+q+LF3C3kQRgPiOFGHLj5lduPO0Ih7R0MbqcXwe1n9gGafePI61N5ivqWfqYvck28F4Q==
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.10.4"
+    "@babel/helper-plugin-utils" "^7.10.4"
+
 "@babel/plugin-proposal-unicode-property-regex@^7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.10.4.tgz#4483cda53041ce3413b7fe2f00022665ddfaa75d"
@@ -2787,16 +2795,14 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^1.11.41":
-  version "1.11.41"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-1.11.41.tgz#3b784f7416bc70f8b02ddfbfff474baedcac682b"
-  integrity sha512-ksj5HAj3z4p5Tgryc6YJaeVxDP8EBB0wmb+wa2mHE/MoMVIQNV08Lb9PH+icN62g4ZhsSrozMBCRAAe7d6aHAA==
+"@rajzik/config-babel@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-2.1.0.tgz#a3937ec3901b3eaf469ef9349071ef688d06daf1"
+  integrity sha512-1NUOU6kDmBKIVYliDrRhBVvBwqFlG2C9C8DTzsQ70pXwlYsZ6I7wHWFcCKo9Mqwkagv1mUW4lqBzOe6F8ZAd5A==
   dependencies:
     "@babel/cli" "^7.11.6"
     "@babel/core" "^7.11.6"
-    "@babel/plugin-proposal-class-properties" "^7.10.4"
-    "@babel/plugin-proposal-export-namespace-from" "^7.10.4"
-    "@babel/plugin-proposal-private-methods" "^7.10.4"
+    "@babel/plugin-proposal-private-property-in-object" "^7.10.4"
     "@babel/plugin-transform-react-jsx-self" "^7.10.4"
     "@babel/plugin-transform-react-jsx-source" "^7.10.5"
     "@babel/plugin-transform-runtime" "^7.11.5"
@@ -2805,12 +2811,13 @@
     "@babel/preset-typescript" "^7.10.4"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
-    "@rajzik/lumos-common" "^2.1.0"
+    "@rajzik/lumos-common" "^3.1.0"
     babel-plugin-graphql-tag "^3.0.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-dev "^2.0.1"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     babel-plugin-typescript-to-proptypes "^1.4.1"
+    react-refresh "^0.8.3"
 
 "@rajzik/config-eslint@^2.4.100":
   version "2.4.100"
@@ -10435,7 +10442,7 @@ react-is@16.13.1, react-is@^16.12.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-refresh@0.8.3:
+react-refresh@0.8.3, react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
