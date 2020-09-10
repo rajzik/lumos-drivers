@@ -2855,14 +2855,14 @@
     jest-environment-jsdom-sixteen "^1.0.3"
     jest-junit "^11.1.0"
 
-"@rajzik/config-prettier@^1.6.38":
-  version "1.6.38"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-1.6.38.tgz#b79137f2944d6876444cb401582feac9049efa20"
-  integrity sha512-t8bKhn/OuxH1ehyDvVQhyfyQKS546kJwx9VQQjn/vRwuHyDcHNMwn5bpk5JHTPHlwdXULMzZ1qoHYdJAOj8f3w==
+"@rajzik/config-prettier@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-2.1.0.tgz#d8ce7282d26c8b9832fccfe72f7da34c81433f00"
+  integrity sha512-X1br9LrOYRb1tSMiPbtoJwxH2jrPOJvAD4ayjcJEx5kuLAz9pTdOfWP06DM4teZSoPGtBilD4j9w6dTlGdVWTQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@rajzik/lumos-common" "^2.1.0"
+    "@rajzik/lumos-common" "^3.1.0"
     prettier "^2.1.1"
 
 "@rajzik/config-typescript@^1.7.14":
@@ -2888,6 +2888,16 @@
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-2.1.0.tgz#0c7da8bfc404a58e8b0e8a1c41ad8de72b2f6d70"
   integrity sha512-Gk9hBCEf/JtkNmPpL63l25UTyWsK+vtEiDEFttP8wDUocyehgLu0ZChOtvEthy4gQnNVSeoKiosXcih3mvbrDA==
+  dependencies:
+    "@beemo/core" "^1.1.8"
+    "@boost/common" "^2.2.0"
+    execa "^4.0.3"
+    fast-glob "^3.2.4"
+
+"@rajzik/lumos-common@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-3.1.0.tgz#e840787c10e113f46f96636f56b357208f318b91"
+  integrity sha512-Mc88qXQKnhM679uug8F/+VlWz/1PAx4+JGZUMgsgwDr+wIO7USKeZNHqMQLDWsxST3eVt1Xm1V0dPj9R4EGqAw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.2.0"
