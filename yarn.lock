@@ -2922,10 +2922,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@rajzik/config-babel@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-2.2.0.tgz#e51a827c5af2f377a2927ab540c9ae0aa625b210"
-  integrity sha512-9WQhzH21Ie8rKicxZNiAeOkXpUDrRaQuy0OvLO9tO2ngG/BoAAsIUVFN1IlK4eSRC2vxxYVkFk2pZA0Fo8kUcQ==
+"@rajzik/config-babel@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-babel/-/config-babel-2.2.2.tgz#d6b52f05254bfb7b1a2a8f3b277ae55d1e5e5ea3"
+  integrity sha512-U6B0txy2hL2eVMeXkTy8sQKbWrx/BbTusGcyUDgXOiz2WUGf43Z4v6OvbDUD9b0RY7nppSL05l4/Ss+M59sZVQ==
   dependencies:
     "@babel/cli" "^7.11.6"
     "@babel/core" "^7.11.6"
@@ -2939,7 +2939,7 @@
     "@babel/preset-typescript" "^7.10.4"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
-    "@rajzik/lumos-common" "^3.1.1"
+    "@rajzik/lumos-common" "^3.2.0"
     babel-plugin-graphql-tag "^3.1.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-optimize-clsx "^2.6.1"
@@ -3030,10 +3030,10 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos-common@^3.1.0", "@rajzik/lumos-common@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-3.1.1.tgz#966ab6f632cf0b3a72c12f6adb5342f6ddff2116"
-  integrity sha512-CTairuVu0K/jidXFfBIh6qfESKuEpy8oSDIzX77xOnqQ22CiL0lUuFBiuTjwC6ctT5jocLCAjZQZ5Uf8Y2XQ1Q==
+"@rajzik/lumos-common@^3.1.0", "@rajzik/lumos-common@^3.1.1", "@rajzik/lumos-common@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-3.2.0.tgz#8f8cb26bfd7c0ac49b649640810a0d96cf3404e8"
+  integrity sha512-U85KhsIhNwEjFtVI8YNau8TbLGnZJ4VYHKqMKd6GMv1a+1ahTM8c4tMqxwc+NpLm26OURAm2tIww29riTmPcHg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.2.1"
