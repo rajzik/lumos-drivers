@@ -2991,15 +2991,15 @@
     jest-environment-jsdom-sixteen "^1.0.3"
     jest-junit "^11.1.0"
 
-"@rajzik/config-prettier@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-2.1.1.tgz#e0ad83a74a935bb68e4a55bf4238eaed219cf552"
-  integrity sha512-96MArnfFLmS7RIDC5FgUwuMcwPNrA47Zo9NbXLsTK6u/LQIBXJHHgooQ5Dj9lcvErSU6Ma8QkGE10jDdrBcZ+w==
+"@rajzik/config-prettier@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-2.1.3.tgz#d6ad06c4aa5703db1fe9f3d0679c194a3134662a"
+  integrity sha512-KucWFNZYyu7+QV5MIuVlkenYjekO0Eu/b9hi1gqTS9nRFsWhzmI3BteG1e7uB1eHywPUJp8bbt9ITQcqyV/WWg==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@rajzik/lumos-common" "^3.1.0"
-    prettier "^2.1.1"
+    "@rajzik/lumos-common" "^3.2.0"
+    prettier "^2.1.2"
 
 "@rajzik/config-typescript@^2.2.1":
   version "2.2.1"
@@ -3030,7 +3030,7 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos-common@^3.1.0", "@rajzik/lumos-common@^3.1.1", "@rajzik/lumos-common@^3.2.0":
+"@rajzik/lumos-common@^3.1.1", "@rajzik/lumos-common@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-3.2.0.tgz#8f8cb26bfd7c0ac49b649640810a0d96cf3404e8"
   integrity sha512-U85KhsIhNwEjFtVI8YNau8TbLGnZJ4VYHKqMKd6GMv1a+1ahTM8c4tMqxwc+NpLm26OURAm2tIww29riTmPcHg==
@@ -10387,10 +10387,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.1.tgz#d9485dd5e499daa6cb547023b87a6cf51bee37d6"
-  integrity sha512-9bY+5ZWCfqj3ghYBLxApy2zf6m+NJo5GzmLTpr9FsApsfjriNnS2dahWReHMi7qNPhhHl9SYHJs2cHZLgexNIw==
+prettier@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
+  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
 
 pretty-format@^25.2.1, pretty-format@^25.5.0:
   version "25.5.0"
