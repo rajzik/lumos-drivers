@@ -2973,16 +2973,16 @@
     eslint-plugin-testing-library "^3.8.0"
     eslint-plugin-unicorn "^21.0.0"
 
-"@rajzik/config-jest@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-2.1.1.tgz#161395bd622aa3b5b69823ab9fbb69ad9873e4e3"
-  integrity sha512-PmsB5p+giLg35Zrxf3mvuiu+oLpuhyPj2wEVcWJtpOIe6pyfXoDco2p/GSKlJ1jsBd8JV7bwwc0ekZhIKbTz2Q==
+"@rajzik/config-jest@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-jest/-/config-jest-2.1.2.tgz#731abcede08f2f34e687883a3928000bea8cc330"
+  integrity sha512-m8pUzDbjqp6NvUFWiAIx48/DG6H4g22N9gDSyJ2TJ/5cu4yYbPnnq0ZFA8PuWIGEzWIHKNcRdjBGJ+p31WaChA==
   dependencies:
     "@babel/core" "^7.11.6"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@rajzik/lumos-common" "^3.1.1"
+    "@rajzik/lumos-common" "^3.2.0"
     "@types/jest" "^26.0.14"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
@@ -3030,7 +3030,7 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos-common@^3.1.1", "@rajzik/lumos-common@^3.2.0":
+"@rajzik/lumos-common@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-3.2.0.tgz#8f8cb26bfd7c0ac49b649640810a0d96cf3404e8"
   integrity sha512-U85KhsIhNwEjFtVI8YNau8TbLGnZJ4VYHKqMKd6GMv1a+1ahTM8c4tMqxwc+NpLm26OURAm2tIww29riTmPcHg==
