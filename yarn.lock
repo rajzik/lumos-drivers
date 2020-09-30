@@ -3053,17 +3053,17 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^4.1.27":
-  version "4.1.27"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-4.1.27.tgz#689ea66eb73862870130bf366f9d8d6c888965d5"
-  integrity sha512-nzJQ84ZeMVQYiYuEjAFf711TktSofcswP9DGILCkne82XxkAJWm7frBiqVUwjvsnkaIoFGB0z2EPJMQu8Vxu4g==
+"@rajzik/lumos@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-5.0.0.tgz#cd53bc572a591f5282616da4977aa53d6248ff09"
+  integrity sha512-oPzApny6jySvL73TW6pTt2Kl1XSo8okTHgDmOl0noMoZAv1MkvLmchnJ6Igk3PQqNet2HlfBBPhCIe/U3vhPHg==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@rajzik/conventional-changelog-beemo" "^2.1.1"
-    "@rajzik/lumos-common" "^3.2.0"
+    "@rajzik/lumos-common" "^4.0.0"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
