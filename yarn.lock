@@ -3059,14 +3059,14 @@
     "@rajzik/lumos-common" "^4.0.0"
     prettier "^2.1.2"
 
-"@rajzik/config-typescript@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-3.0.0.tgz#d16f569aa15dd4697d27e09ef27d219dd4e4b35b"
-  integrity sha512-c1cIo19GwBnMGi3qGU85cnOw0yVNk+gRd1VxL3TUhB8cof3p7reD0zwaWiucMkmZAtC1XBfgur12LNKPG/28Hg==
+"@rajzik/config-typescript@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-typescript/-/config-typescript-3.0.1.tgz#e631de47dbae3ff9e694decc1ff5b8990000963b"
+  integrity sha512-EqYRPEZHds9eD31MayIXuKcdQsBsKxxSfOnerQY3HNAe8tSWc4FVApfNIgZwC/+hgxTcFb8+80tUW3H0pV1V1g==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    "@rajzik/lumos-common" "^4.0.0"
+    "@rajzik/lumos-common" "^4.0.1"
     typescript "^4.0.3"
 
 "@rajzik/conventional-changelog-beemo@^2.1.1":
