@@ -3049,14 +3049,14 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@rajzik/config-prettier@^2.1.4":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-2.1.4.tgz#bb2a3d4f852e7c9209a74414de4356a860e95a32"
-  integrity sha512-YPNGIQlKbfnKPFvALgV3knk5iXrt/H+A5D8lRKJAGbQWBufy18XUOOQ2tm9v6+vR2BMDdhBv821haw+4eG2M/g==
+"@rajzik/config-prettier@^2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-2.1.6.tgz#e04bf8481ccf05e531dcf53dc9c3863203c5ad73"
+  integrity sha512-57hL/9WhfRQQwhRE4JhCnnYqSJjXn3MTI0x0JSrUv/C5Ky3ZfHgOy4LSJ0nAk82+kQD7bP8yPyPBgBsqLbDLCA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@rajzik/lumos-common" "^4.0.0"
+    "@rajzik/lumos-common" "^4.0.1"
     prettier "^2.1.2"
 
 "@rajzik/config-typescript@^3.0.1":
@@ -3089,7 +3089,7 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos-common@^4.0.0", "@rajzik/lumos-common@^4.0.1":
+"@rajzik/lumos-common@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-4.0.1.tgz#8c0703e67f301df8eeaacd1aef98682c0cb242cf"
   integrity sha512-xpTj+39Gsvqxt2Z2VA8mf7BewDPc7rKHUMpeHFJVPX4nxob52nAiMP1Ww381udHeWCLqX/81Z5Hux3rWkw0jqA==
