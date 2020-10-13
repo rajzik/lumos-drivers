@@ -3099,10 +3099,10 @@
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
-"@rajzik/lumos@^5.0.14":
-  version "5.0.14"
-  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-5.0.14.tgz#916c030c1f56de7c2bf7901fcd2ec6f95bcf4000"
-  integrity sha512-nDOwbVcdvjoOrUg58CzxMiji6LnjrAZjytAvg/jy9yse8LCKmylCgigz46VBSEmZIgmL2Dqb4HQ1QEg3jbHafw==
+"@rajzik/lumos@^5.0.16":
+  version "5.0.16"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos/-/lumos-5.0.16.tgz#18f4d86baa10b00825ada58c0a93274c3c63ebc4"
+  integrity sha512-Zg2nH72VpR8hfeLWLWfWcFC4BpOTnPniIKCs37Bc5WzzoS8dxODwPlb/wBH9edYSkJlRh/kHIo+w3x+Z36oYNg==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
