@@ -1486,6 +1486,19 @@
     pretty-ms "^7.0.1"
     yaml "^1.10.0"
 
+"@boost/common@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.3.0.tgz#0b71a0a65b1bdefc2a6de61b79ef3d130a620a37"
+  integrity sha512-H8XZebnek4fSfJS4Oy9lAIlWftZpZT42BvHirV64PT28aNpqxfQnE/3p1jX0qL9ZBygw+bVw2XPkI5cTo2NOLQ==
+  dependencies:
+    "@boost/decorators" "^2.0.0"
+    "@boost/internal" "^2.1.1"
+    fast-glob "^3.2.4"
+    json5 "^2.1.3"
+    optimal "^4.2.0"
+    pretty-ms "^7.0.1"
+    yaml "^1.10.0"
+
 "@boost/core@^1.18.6":
   version "1.18.6"
   resolved "https://registry.yarnpkg.com/@boost/core/-/core-1.18.6.tgz#2fd8ac16b05e2a92e2c0b92be9fd2ca704307630"
@@ -3049,14 +3062,14 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@rajzik/config-prettier@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-2.1.6.tgz#e04bf8481ccf05e531dcf53dc9c3863203c5ad73"
-  integrity sha512-57hL/9WhfRQQwhRE4JhCnnYqSJjXn3MTI0x0JSrUv/C5Ky3ZfHgOy4LSJ0nAk82+kQD7bP8yPyPBgBsqLbDLCA==
+"@rajzik/config-prettier@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/@rajzik/config-prettier/-/config-prettier-2.1.9.tgz#0a82420e29eab692306cda867bd8dfee995b8903"
+  integrity sha512-1x3ScM/pNWESsnUrZdFQQMH6F5k76etXbT/exvKCGukhGenW/oR1qxidhylQjZc1mD8Klg4wP0LQVE/pA0OpQw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@rajzik/lumos-common" "^4.0.1"
+    "@rajzik/lumos-common" "^5.0.1"
     prettier "^2.1.2"
 
 "@rajzik/config-typescript@^3.0.1":
@@ -3096,6 +3109,16 @@
   dependencies:
     "@beemo/core" "^1.1.8"
     "@boost/common" "^2.2.2"
+    execa "^4.0.3"
+    fast-glob "^3.2.4"
+
+"@rajzik/lumos-common@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@rajzik/lumos-common/-/lumos-common-5.0.1.tgz#e83fb6777afd0e1f297c9d88799c8fa342b194e5"
+  integrity sha512-xxHb7K+rivKgBV8U0VYEcwAOamS8AIao45AIpCGDWQfHHCRaYj4QSr163OlJWCB5Cz8Jgkc6jFLSXpZ/B8mISA==
+  dependencies:
+    "@beemo/core" "^1.1.8"
+    "@boost/common" "^2.3.0"
     execa "^4.0.3"
     fast-glob "^3.2.4"
 
